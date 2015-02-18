@@ -1,0 +1,27 @@
+<head>
+  <title>hello</title>
+</head>
+
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+  {{> hello}}
+</body>
+
+
+<template name="hello">
+
+  <button>Click Me</button>
+
+  <!-- Case 1: pressing the button 3 times gives the expected console output -->
+  <!--
+  <p>You've pressed the button {{counter}} times.</p>
+  <p>{{#if isCounterEven}}even{{else}}odd{{/if}}</p>
+  -->
+
+  <!-- Case 2: unexpected output with modified html -->
+  <p style="color:{{#if isCounterEven}}blue{{else}}red{{/if}}">
+    You've pressed the button {{counter}} times.
+  </p>
+
+</template>
