@@ -3,7 +3,7 @@
 This is the repo for reproducing the issue described here: 
 https://github.com/meteor/meteor/issues/3763
 
-Meteor version: `WINDOWS-PREVIEW@0.1.7` (issue is the same with Meteor 1.0.3.1)
+Meteor version: `WINDOWS-PREVIEW@0.1.7` (but issue is the same with Meteor 1.0.3.1)
 
 <h4>How to install:</h4>
 
